@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIFA Galaxy — Figurinhas Digitais</title>
+  <meta name="description" content="FIFA Galaxy — uma coleção de figurinhas digitais de jogadores desenhadas à mão.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <header class="nav">
+    <a class="logo" href="#inicio"><span>F</span>IFA <b>GALAXY</b></a><img class="logo-henrique" src="henrique.jpeg" width="100px">
+    <nav>
+      <a href="#colecao">Coleção</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#raridades">Raridades</a>
+    </nav>
+    <a class="nav-button" href="#colecao">Explorar</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">⚡ UMA GALÁXIA DE FUTEBOL</p>
+        <h1>COLETE.<br><span>DESCUBRA.</span><br>DOMINE.</h1>
+        <p class="hero-text">
+          Figurinhas digitais de jogadores desenhadas por você, reunidas em uma coleção com identidade própria.
+        </p>
+        <div class="hero-actions">
+          <a class="primary" href="#colecao">Ver coleção <span>→</span></a>
+          <a class="secondary" href="#sobre">Conhecer o projeto</a>
+        </div>
+      </div>
+
+      <div class="hero-card-wrap">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="hero-card">
+          <div class="card-shine"></div>
+          <div class="card-top"><span>FG</span><small>LEGEND</small></div>
+          <div class="player-placeholder">10</div>
+          <div class="card-bottom">
+            <strong>SEU<br>JOGADOR</strong>
+            <small>FIGURINHA #001</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>001</strong><span>Figurinhas iniciais</span></div>
+      <div><strong>∞</strong><span>Possibilidades</span></div>
+      <div><strong>100%</strong><span>Desenhadas por você</span></div>
+    </section>
+
+    <section class="collection section" id="colecao">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A COLEÇÃO</p>
+          <h2>FIGURINHAS DA GALÁXIA</h2>
+        </div>
+        <p>Substitua os cards abaixo pelos seus desenhos e transforme o site na vitrine oficial do FIFA Galaxy.</p>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all">Todas</button>
+        <button class="filter" data-filter="lenda">Lendas</button>
+        <button class="filter" data-filter="elite">Elite</button>
+        <button class="filter" data-filter="especial">Especiais</button>
+      </div>
+
+      <div class="cards" id="cards">
+        <article class="sticker-card" data-category="lenda">
+          <div class="sticker visual-one">
+            <span class="rarity">LENDÁRIA</span><span class="number">#001</span>
+            <div class="art-placeholder">SEU<br>DESENHO</div>
+            <div class="sticker-info"><b>JOGADOR</b><small>ATA • 98 OVR</small></div>
+          </div>
+          <h3>Figurinha #001</h3><p>Lenda da Galáxia</p>
+        </article>
+
+        <article class="sticker-card" data-category="elite">
+          <div class="sticker visual-two">
+            <span class="rarity">ELITE</span><span class="number">#002</span>
+            <div class="art-placeholder">SEU<br>DESENHO</div>
+            <div class="sticker-info"><b>JOGADOR</b><small>MEI • 95 OVR</small></div>
+          </div>
+          <h3>Figurinha #002</h3><p>Elite Galaxy</p>
+        </article>
+
+        <article class="sticker-card" data-category="especial">
+          <div class="sticker visual-three">
+            <span class="rarity">ESPECIAL</span><span class="number">#003</span>
+            <div class="art-placeholder">SEU<br>DESENHO</div>
+            <div class="sticker-info"><b>JOGADOR</b><small>ATA • 96 OVR</small></div>
+          </div>
+          <h3>Figurinha #003</h3><p>Edição Especial</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="about-art">
+        <div class="mini-card"><span>FG</span><b>GALAXY</b><small>ORIGINAL ART</small></div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">SOBRE O PROJETO</p>
+        <h2>FUTEBOL,<br>ARTE E GALÁXIA.</h2>
+        <p>
+          O FIFA Galaxy é um projeto criativo para transformar jogadores de futebol em figurinhas digitais com um estilo visual único.
+          Cada carta pode contar uma história: jogador, posição, overall, raridade e uma arte feita à mão.
+        </p>
+        <div class="feature-grid">
+          <div><b>01</b><span>Arte original</span></div>
+          <div><b>02</b><span>Cartas colecionáveis</span></div>
+          <div><b>03</b><span>Universo próprio</span></div>
+          <div><b>04</b><span>Novas edições</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rarities section" id="raridades">
+      <div class="section-heading">
+        <div><p class="eyebrow">CLASSIFICAÇÃO</p><h2>RARIDADES</h2></div>
+      </div>
+      <div class="rarity-grid">
+        <div class="rarity-box legendary"><span>✦</span><h3>LENDÁRIA</h3><p>As cartas mais especiais da coleção.</p></div>
+        <div class="rarity-box elite"><span>◆</span><h3>ELITE</h3><p>Jogadores de destaque da galáxia.</p></div>
+        <div class="rarity-box special"><span>★</span><h3>ESPECIAL</h3><p>Edições temáticas e comemorativas.</p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <p class="eyebrow">PRÓXIMA PARADA</p>
+      <h2>SUA COLEÇÃO<br>COMEÇA AQUI.</h2>
+      <a class="primary" href="#colecao">Explorar FIFA Galaxy <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>F</span>IFA <b>GALAXY</b></div>
+    <p>Projeto artístico independente • © 2026 FIFA Galaxy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
